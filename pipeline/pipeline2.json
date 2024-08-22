@@ -52,7 +52,7 @@
 						"referenceName": "parameter_ds",
 						"type": "DatasetReference",
 						"parameters": {
-							"ds_file_system": "adjproject",
+							"ds_file_system": "adfproject",
 							"ds_file_directory": "input",
 							"ds_file_name": "SalesLTProduct.txt"
 						}
