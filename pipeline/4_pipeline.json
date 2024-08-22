@@ -1,5 +1,5 @@
 {
-	"name": "Fourth_pipeline",
+	"name": "4_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -28,6 +28,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -64,7 +65,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"pipeline": {
-									"referenceName": "First_pipeline",
+									"referenceName": "1_pipeline",
 									"type": "PipelineReference"
 								},
 								"waitOnCompletion": true,
