@@ -87,7 +87,7 @@
 				"SalesLTred filter(Color=='Red') ~> filterbyred",
 				"SalesLTBlack filter(Color=='Black') ~> filterbyblack",
 				"filterbyred, filterbyblack union(byName: true)~> union1",
-				"filterbyblack sink(allowSchemaDrift: true,",
+				"union1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     umask: 0022,",
 				"     preCommands: [],",
