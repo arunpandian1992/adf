@@ -1,0 +1,39 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "part-00000-ad9683cd-b297-45e2-afba-2076047d2ce6-c000.json",
+				"folderPath": "output",
+				"fileSystem": "adfproject"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"transaction_id": {
+					"type": "string"
+				},
+				"store_id": {
+					"type": "string"
+				},
+				"product_id": {
+					"type": "string"
+				},
+				"quantity_sold": {
+					"type": "string"
+				},
+				"customer_id": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
