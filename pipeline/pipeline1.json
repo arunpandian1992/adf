@@ -54,7 +54,7 @@
 						"parameters": {
 							"ds_file_system": "adfproject",
 							"ds_file_directory": "input",
-							"ds_file_name": "SalesLTproduct.tct"
+							"ds_file_name": "SalesLTProduct.txt"
 						}
 					}
 				],
@@ -65,7 +65,7 @@
 						"parameters": {
 							"ds_file_system": "adfproject",
 							"ds_file_directory": "output",
-							"ds_file_name": "SalesLTproduct.txt"
+							"ds_file_name": "SalesLTProduct.txt"
 						}
 					}
 				]
